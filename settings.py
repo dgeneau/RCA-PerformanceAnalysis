@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 SITE_URL = os.environ.get("SITE_URL","https://apps.csipacific.ca")
-APP_URL = os.environ.get("APP_URL","http://127.0.0.1:8050")
+APP_URL = os.environ.get("APP_URL")
 
 AUTH_URL = f"{SITE_URL}/o/authorize"
 TOKEN_URL = f"{SITE_URL}/o/token/"
