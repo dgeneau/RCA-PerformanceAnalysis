@@ -10,10 +10,14 @@ TOKEN_URL = f"{SITE_URL}/o/token/"
 CLIENT_ID = os.environ.get("CLIENT_ID")
 CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
 
-INTERVALS_API_KEY = os.environ.get("INTERVALS_API_KEY")
+
 
 SPORT_ORG_ENDPOINT = f"/api/registration/organization/"
 PROFILE_ENDPOINT = f"/api/registration/profile/"
 
+INSIDERS_USERNAME = "dgeneau@csipacific.ca"
+INSIDERS_PASSWORD = os.environ.get("INSIDERS_PASSWORD")
+INSIDERS_CLIENT_ID = os.environ.get("INSIDERS_CLIENT_ID")
+INSIDERS_CLIENT_SECRET = os.environ.get("INSIDERS_CLIENT_SECRET")
 # Optional (default True): SSL verification
 INSIDERS_VERIFY_SSL = True
