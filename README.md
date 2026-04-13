@@ -1,2 +1,8 @@
-# RCA-PerformanceAnalysis
-Performance analysis tools for RCA
+# RCA Performance Analysis Hub
+
+Data loading and processing of performance measures inlcuding: 
+
+ - Live GPS analysis 
+ - Post Processing GPS reporting
+
+
