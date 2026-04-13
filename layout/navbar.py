@@ -33,7 +33,7 @@ class Navbar:
                             html.Img(src="assets/img/csi-pacific-logo-reverse.png", height="40px"),
                             html.Span(self.title, className="ms-2 h5 mb-0"),
                         ],
-                        href="/builder",
+                        href="/home",
                         className="d-flex align-items-center text-white text-decoration-none",
                     ),
 
